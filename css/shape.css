@@ -1,0 +1,155 @@
+#square{
+	width: 100px;
+	height: 100px;
+	background: red;
+	float: left;
+	margin-right: 20px;
+}
+#rectangle{
+	width: 200px;
+	height: 100px;
+	background: blue;
+	float: left;
+	margin-right: 20px;
+}
+#circle{
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+#oval{
+	width: 200px;
+	height: 100px;
+	background: blue;
+	border-radius: 100px/50px;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_up{
+	width: 0;
+	height: 0;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_down{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid blue;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_left{
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-right: 100px solid red;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_right{
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 100px solid  blue;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_top_left{
+	width: 0;
+	height: 0;
+	border-top: 100px solid red;
+	border-right: 100px solid transparent;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_top_right{
+	width: 0;
+	height: 0;
+	border-top: 100px solid blue;
+	border-left: 100px solid transparent;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_bottom_left{
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid red;
+	border-left: 100px solid transparent;
+	float: left;
+	margin-right: 20px;
+}
+#triangle_bottom_right{
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid blue;
+	border-right: 100px solid transparent;
+	float: left;
+	margin-top: 20px;
+}
+       #star_five {
+      margin-top: 60px;
+      margin-right: 20px;
+      position: relative;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+      float: left;
+    }
+    #star_five:before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+    #star_five:after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+    button{
+    	width: 300px;
+    	height: 60px;
+    	background: #badc58;
+    	margin-left: 25%;
+    	margin-top: 10%;
+    	transition: 0.3s all ease;
+    }
+    button:hover{
+    	background: #30336b;
+    	color: white;
+    }
+    a{
+    	text-decoration: none;
+    	color: black;
+    }
