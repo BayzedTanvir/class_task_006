@@ -113,7 +113,7 @@ header{
 	font: italic small-caps bold 1.5em arial;
 }
 .center_block{
-	width: 59.5%;
+	width: 58.5%;
 	float: left;
 }
 .center_top{
@@ -175,7 +175,6 @@ header{
 	
 }
 .center_bottom_content{
-	/* margin-top: 10px; */
 	font: italic small-caps bold 1.5em arial;
 }
 .footer2{
